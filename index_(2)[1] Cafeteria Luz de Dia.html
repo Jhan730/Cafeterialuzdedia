@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Cafetería Luz de Día - El mejor lugar para disfrutar un buen café y deliciosos postres" />
+    <meta name="author" content="Cafetería Luz de Día" />
+    <title>Cafetería Luz de Día</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#!">Cafetería Luz de Día</a>
+            <a class="btn btn-primary" href="#register">Suscribirse</a>
+        </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead" style="background-image: url('assets/img/cafe-bg.jpg'); background-size: cover;">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center text-white">
+                        <h1 class="mb-5">¡Disfruta el mejor café y postres en Cafetería Luz de Día!</h1>
+                        <img src="https://img.freepik.com/vector-gratis/fondo-cafeteria-dibujado-mano_23-2150849907.jpg" alt="Menu Cafés" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Menu Cafés -->
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="bi-cup m-auto text-primary"></i>
+                        </div>
+                        <h3>Menu Cafés</h3>
+                        <p class="lead mb-0">Café de origen, seleccionado para los paladares más exigentes.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#menuCafesModal">
+                            <img src="https://img.freepik.com/foto-gratis/deliciosos-granos-cafe-taza_23-2150691429.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727740800&semt=ais_hybrid" alt="Menu Cafés" class="img-fluid menu-img">
+                        </a>
+                    </div>
+                </div>
+                <!-- Menu Comida -->
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="bi-heart m-auto text-primary"></i>
+                        </div>
+                        <h3>Menu Comida</h3>
+                        <p class="lead mb-0">Disfruta de la comida más sabrosa.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#menuComidaModal">
+                            <img src="https://i.blogs.es/1e6555/17-13-x-25/450_1000.jpg" alt="Menu Comida" class="img-fluid menu-img">
+                        </a>
+                    </div>
+                </div>
+                <!-- Menu Postres -->
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="bi-emoji-smile m-auto text-primary"></i>
+                        </div>
+                        <h3>Menu Postres</h3>
+                        <p class="lead mb-0">Disfruta de nuestros mejores postres.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#menuPostresModal">
+                            <img src="https://www.imagelato.com/images/article-cover-best-selling-desserts-for-coffee-shops-f466c395-1024w.jpg" alt="Menu Postres" class="img-fluid menu-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recomendaciones y Registro -->
+    <section class="recommendations bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Recomendaciones de Nuestros Clientes</h2>
+            <div id="carouselRecommendations" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>“Café recién tostado, exquisito sabor en todas sus presentaciones, venta mayor y menudo de café molido, y no dejen de probar el café recién hecho.”</p>
+                        <small>Richard RMZ</small>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Excelente café. Mi favorito es el sabor Snickers y Café de Olla.”</p>
+                        <small>Nettfali Calzada</small>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Un lugar maravilloso, el ambiente es muy acogedor y el café inigualable.”</p>
+                        <small>Juan Pérez</small>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Sin duda, el mejor café de la ciudad. La atención es excelente.”</p>
+                        <small>Maria López</small>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecommendations" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRecommendations" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3>Regístrate para recibir nuestras promociones</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellidos" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidos" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Número de celular</label>
+                            <input type="tel" class="form-control" id="telefono" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Deja tu recomendación</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="recomendacion" class="form-label">Recomendación</label>
+                            <textarea class="form-control" id="recomendacion" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="calificacion" class="form-label">Calificación</label>
+                            <select class="form-select" id="calificacion" required>
+                                <option value="" disabled selected>Selecciona una calificación</option>
+                                <option value="5">★★★★★</option>
+                                <option value="4">★★★★☆</option>
+                                <option value="3">★★★☆☆</option>
+                                <option value="2">★★☆☆☆</option>
+                                <option value="1">★☆☆☆☆</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para Menú de Cafés -->
+    <div class="modal fade" id="menuCafesModal" tabindex="-1" aria-labelledby="menuCafesModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuCafesModalLabel">Menú de Cafés</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Espresso - $40</h6>
+                    <p>Café concentrado servido en pequeñas porciones.</p>
+                    <h6>2. Americano - $35</h6>
+                    <p>Espresso diluido con agua caliente.</p>
+                    <h6>3. Latte - $50</h6>
+                    <p>Café espresso con leche vaporizada y espuma de leche.</p>
+                    <h6>4. Cappuccino - $55</h6>
+                    <p>Espresso con leche vaporizada y espuma, servido en partes iguales.</p>
+                    <h6>5. Café de Olla - $45</h6>
+                    <p>Café tradicional mexicano, preparado con canela y piloncillo.</p>
+                    <h6>6. Frappuccino de Vainilla - $65</h6>
+                    <p>Café frío mezclado con hielo, vainilla y crema.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Menú de Comida -->
+    <div class="modal fade" id="menuComidaModal" tabindex="-1" aria-labelledby="menuComidaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuComidaModalLabel">Menú de Comida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Tacos al Pastor - $60 (6 piezas)</h6>
+                    <p>Tortillas rellenas de carne de cerdo adobada, piña y salsa.</p>
+                    <h6>2. Enchiladas Verdes - $70</h6>
+                    <p>Tortillas rellenas de pollo, cubiertas con salsa verde y crema.</p>
+                    <h6>3. Chiles en Nogada - $150</h6>
+                    <p>Pimientos rellenos de picadillo, bañados en salsa de nuez.</p>
+                    <h6>4. Pozole - $80</h6>
+                    <p>Sopa de maíz con carne, servida con rábanos y lechuga.</p>
+                    <h6>5. Quesadillas - $50 (3 piezas)</h6>
+                    <p>Tortillas rellenas de queso y hierbas, servidas con salsa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Menú de Postres -->
+    <div class="modal fade" id="menuPostresModal" tabindex="-1" aria-labelledby="menuPostresModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuPostresModalLabel">Menú de Postres</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Pastel de Tres Leches - $50</h6>
+                    <p>Bizcocho empapado en una mezcla de tres tipos de leche.</p>
+                    <h6>2. Flan Napolitano - $40</h6>
+                    <p>Flan cremoso con un toque de vainilla.</p>
+                    <h6>3. Churros con Chocolate - $45</h6>
+                    <p>Dulces fritos espolvoreados con azúcar, acompañados de chocolate caliente.</p>
+                    <h6>4. Cajeta con Pan - $35</h6>
+                    <p>Dulce de leche de cabra servido con pan bolillo.</p>
+                    <h6>5. Gelatina de Frutas - $30</h6>
+                    <p>Gelatina preparada con frutas frescas y jugo natural.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer bg-light text-center">
+        <div class="container">
+            <p class="m-0 text-center text-black">© 2024 Cafetería Luz de Día. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Sección de Contacto -->
+    <section class="contact bg-light text-center">
+        <div class="container">
+            <h3 class="mb-4">Contacto</h3>
+            <p>Teléfono: <a href="tel:7737360715">7737360715</a></p>
+            <p>Correo: <a href="mailto:cafeterialuzdedia@gmail.com">cafeterialuzdedia@gmail.com</a></p>
+            <p>Ubicación: Bomintzha Tula de Allende, Hidalgo, Calle Abasolo Número 19</p>
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Bomintzha+Tula+de+Allende,+Hidalgo,+Calle+Abasolo+Número+19" target="_blank">Ver en Google Maps</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
